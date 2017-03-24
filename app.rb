@@ -10,6 +10,7 @@ end
 get('/display') do
   @sentence = params.fetch('sentence')
   @word = params.fetch('word')
-  @sentence.word_count(@word)
+  @count = @sentence.word_count(@word)
+  @partial = @sentence.partial_word_count(@word)
   erb(:display)
 end
