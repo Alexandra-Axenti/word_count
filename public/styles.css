@@ -38,6 +38,15 @@ input {
   font-family: Special Elite;
 }
 
-button {
+#btn-form, #btn-try {
   background-color: #ff4c4c;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #35383f;
 }
