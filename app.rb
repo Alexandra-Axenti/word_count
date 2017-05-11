@@ -2,7 +2,6 @@ require('sinatra')
 require('sinatra/reloader')
 also_reload('lib/**/*.rb')
 require('./lib/word_count')
-require('./lib/partial_word_count')
 
 get('/') do
   erb(:form)
